@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+
+@font-face {
+    font-family: "cabana";
+    src: url("../fonts/cabana.woff2") format("woff2"),
+        url("../fonts/cabana.woff") format("woff");
+    font-display: swap;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: "teddy_bear";
+    src: url("../fonts/teddy_bear.woff2") format("woff2"),
+        url("../fonts/teddy_bear.woff") format("woff");
+    font-display: swap;
+    font-style: normal;
+}
+
+
+
+
+.book {
+    font-family: "teddy_bear";
+}
+
+.sauron {
+    font-family: "cabana";
+}
+
+.last {
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+.class p {
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+.word p {
+    font-family: "teddy_bear";
+}
+
+.block p{
+    font-family: "Roboto";
+    font-weight: 700;
+}
+
+h1{
+    font-family: "Roboto";
+    font-weight: 900;
+}
